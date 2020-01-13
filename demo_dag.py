@@ -6,7 +6,6 @@ from airflow.operators.dummy_operator import DummyOperator
 from datetime import datetime, timedelta
 import time
 import paramiko
-import sy
 
 hostname = 'dgamonmdhds01.sl.bluecloud.ibm.com'
 port = 22
